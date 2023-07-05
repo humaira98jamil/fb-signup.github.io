@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    font-size: 12px;
+    overflow-y: scroll;
+    color: #1c1e21;
+    display: block;
+
+}
+.upper-container {
+     display: block;
+     padding: 45px 0;
+    height: 520px;
+    background-color: #F0F2F5;
+}
+
+.logo {
+    width: 240px;
+    display: block;
+    margin: auto;
+    
+}
+
+.form {
+    display: block;
+    margin: auto;
+    width: 396px;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+    0 8px 16px rgba(0, 0, 0, .1) ;
+    padding: 0 0 10px 0;
+  
+    
+}
+
+.heading {
+    padding: 24px 0 16px 0;
+    text-align: center;
+    font-size: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.input-email , .input-Password , .button , .links{
+    display: block;
+    margin: 10px auto;
+    width: 364px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 17px;
+    outline: none;
+    
+}
+
+.input-email:default {
+    border: 1px solid #dddfe2;
+}
+
+.button {
+    background-color:#1877f2;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1866ff;
+}
+.links {
+    border: none;
+    text-align: center;
+    padding: 6px 16px;
+   
+}
+a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline #1877f2; 
+    outline: none;
+}
+
+.span {
+    color: #90949c;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.lower-container
+{
+    display: block;
+    margin:120px auto 50px auto;
+    background-color: #fff;
+    max-width: 980px;
+    
+
+}
+
+.flex-item , .footer-li , .copy
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items: center;
+    list-style-type:none ;
+    padding: 8px;
+    width: auto;
+    color: #848484;
+    
+}
+  
+.footer-li 
+{
+  
+    padding-right: 20px;
+    line-height: 2;
+    text-align: left;
+    
+}  
+   
+
+li a
+{
+    color: #8a8d91;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+li a:hover
+{
+    text-decoration: underline #8a8d91;
+}
+
+li:first-child 
+{
+    color: #737373;
+}
+.line {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.copy
+{
+    margin: 20px auto;
+}
